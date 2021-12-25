@@ -1,0 +1,135 @@
+/*************************************TAG SELECTORS*******************************/
+
+body{
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+h1{
+  color: #66BFBF;
+  font-size: 600%;
+  margin-block-start:150px;
+  margin-block-end: 0;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #406882;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color: #40514E
+}
+/*************************************CLASS SELECTORS*******************************/
+.top-container{
+  background-color: #B1D0E0;
+  position: relative;
+  padding-top: 100px;
+  height: 800px;
+}
+.mountain{
+  margin-top: 79px;
+  width: 800px;
+  height: 400px;
+}
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  margin-top: 40px;
+  width: 200px;
+  height: 100px;
+}
+.bot-cloud{
+  position: absolute;
+  left: 430px;
+  width: 80px;
+  height: 40px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.photo{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  margin-top:180px;
+}
+.python-img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.bulb-img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
+.whoami{
+  font-family: 'Quicksand', sans-serif;
+  color: #66BFBF;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius:  8;
+  -moz-border-radius:  8;
+  border-radius:  8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-section{
+  margin-top: 100px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.copy-right{
+  color: #1A374D;
+}
+/****************************************ID Selector********************************/
